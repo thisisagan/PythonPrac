@@ -1,0 +1,63 @@
+#Using While Loop
+result = 1
+n = int(input("input a num\n"))
+
+
+'''
+#Using For Loop
+result = 1
+n=0
+n = int(input("input a num\n"))
+if n<=0:
+	print("erro")
+else :
+	for i in range(1,n):
+		result = result*i
+	print(result)
+'''
+
+
+'''
+#while loop实现阶乘计算
+result = 1
+n = int(input("enter a number\n"))
+if n == 0:
+	print("The result is 0.")
+elif n < 0:
+	print("Input is ERRO!")
+else:
+	while n > 0:
+		result = result * n
+		n = n - 1
+	print("The result is " + str(result) +".")
+'''
+
+
+
+'''
+#while loop实现阶乘计算
+result = 1
+i = 1
+n = int(input("enter a number\n"))
+if n == 0:
+	print("The result is 0.")
+elif n < 0:
+	print("Input is ERRO!")
+else:
+	while i < (n + 1):
+		result = result * i
+		i = i + 1
+	print("The result is " + str(result) +".")
+'''
+
+'''
+#输出整数n作为键，n**2作为键值，输出一个字典
+dict = {}
+i = 1
+n = int(input("Enter a num\n"))
+#while i < (n + 1):
+for i in range(1,n + 1):
+	dict[i] = i * i
+	i = i + 1
+print(dict)
+'''
